@@ -15,11 +15,30 @@ body{
     margin: 0px;
     padding: 0px;
 }
+h1,h2,p,label,span,input,button{
+    font-family: Graphik;
+}
+section{
+    margin-bottom: 100px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,186,186);
+}
 button{
     border-style:none;
     background-color: rgb(0,186,186);
     color: white;
-    font-family: Graphik;
     font-weight: 600;
     font-size: 16px;
 }
@@ -46,4 +65,29 @@ header > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.sectionOne{
+    text-align: center;
+}
+.sectionOne > h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.sectionOne > footer > span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.sectionOne > footer > a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    background-color: rgb(232,248,248);
+}
+.sectionTwo{
+    display: flex;
+    justify-content: center;
 }

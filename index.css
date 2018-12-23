@@ -73,13 +73,13 @@ header > img{
     font-size: 45px;
     letter-spacing: 1px;
 }
-.sectionOne > footer > span {
+.sectionOne > .sectionOneFooter > span {
     display: inline-block;
     font-weight: 600;
     font-size: 20px;
     margin-right: 15px;
 }
-.sectionOne > footer > a {
+.sectionOne > .sectionOneFooter > a {
     display: inline-block;
     height: 35px;
     width: 35px;

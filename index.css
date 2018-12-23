@@ -91,3 +91,36 @@ header > img{
     display: flex;
     justify-content: center;
 }
+.sectionThree{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:block;
+    text-align:center;
+    background-image: url("./assets/contacts.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+form > label{
+    font-size:30px;
+    font-weight: 400;
+}
+form > button{
+    padding: 10px 30px;
+}
+form > input{
+    border-width: 0px  0px 2px 0px;
+    border-style: solid;
+    border-color: rgb(0,186,186);
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+}
+form > input::placeholder{
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+}
+form > p{
+    font-size: 15px;
+}

@@ -1,2 +1,2 @@
-# UI-Final_Task-HTML-CSS
+# UI-Final_Task-HTML_CSS
 Task to make an website.

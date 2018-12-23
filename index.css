@@ -134,7 +134,8 @@ form > p{
 .sectionFive{
     background-color: rgb(232,248,248);
     text-align: center;
-    padding: 100px 0px;
+    padding: 80px 0px;
+    margin-bottom: 0px;
 }
 .sectionFive > p{
     font-size: 27px;
@@ -149,4 +150,12 @@ form > p{
 }
 .sectionFive > p > button{
     padding: 10px 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 50px 0px;
+    margin: 0px;
+    border: 0px;
 }

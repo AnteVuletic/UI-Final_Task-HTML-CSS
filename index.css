@@ -124,3 +124,10 @@ form > input::placeholder{
 form > p{
     font-size: 15px;
 }
+.sectionFour{
+    display: flex;
+    justify-content: center;
+}
+.sectionFour > .textBlock{
+    text-align: end;
+}

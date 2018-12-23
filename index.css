@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/Graphik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/Graphik-Semibold.ttf") format("truetype");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    border-style:none;
+    background-color: rgb(0,186,186);
+    color: white;
+    font-family: Graphik;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232,248,248);
+}
+nav > a{
+    display: block;
+    margin-top: 15px;
+}
+nav > a > img{
+    mix-blend-mode: multiply;
+}
+nav > button{
+    padding: 30px 30px;
+}

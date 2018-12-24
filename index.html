@@ -48,7 +48,7 @@
         </p>
         <form>
             <label for="">With ₦10,000 we can gift</label><br>
-            <input type="text" placeholder="enter idea(s) here*">
+            <input onkeypress="resize(this)" type="text" placeholder="enter idea(s) here*">
             <p>*enter multiple ideas seperated with a comma</p>
             <button>Send my idea!</button>
         </form>
@@ -68,15 +68,16 @@
     </section>
     <section class="sectionFive">
         <h2>Ready to join us this Christmas?</h2>
-        <p>
-            I'm <a href="">first name</a>, my email is <a href="">email address</a> <br>
-            and you can call me on <a href="">080xxxxxxxx</a><br>
+        <form>
+            I'm <input onkeypress="resize(this)" type="text" placeholder="first name">, my email is <input onkeypress="resize(this)" type="text" placeholder="email address"> <br>
+            and you can call me on <input onkeypress="resize(this)" type="text" placeholder="080xxxxxxxx"><br>
             <button>Yes! Let's do this!</button>
-        </p>
+        </form>
     </section>
     <footer>
         <span>© Copyright 2018 <a href="">Cregital</a>. All rights reserved.</span>
         <span>@arkcregital on <a href="">Instagram</a> and <a href="">Twitter.</a></span>
     </footer>
+    <script src="inputResize.js"></script>
 </body>
 </html>

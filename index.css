@@ -115,6 +115,7 @@ form > input{
     font-size: 30px;
     color: rgb(0,186,186);
     text-align: center;
+    background: inherit;
 }
 form > input::placeholder{
     font-size: 30px;
@@ -137,18 +138,26 @@ form > p{
     padding: 80px 0px;
     margin-bottom: 0px;
 }
-.sectionFive > p{
+.sectionFive > form{
     font-size: 27px;
     font-weight: 300;
     line-height: 50px;
 }
-.sectionFive > p > a{
-    display: inline-block;
+.sectionFive > form > input{
     border-width: 0px 0px 2px 0px;
     border-style: solid;
     border-color: rgb(0,186,186);
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+    background: inherit;
 }
-.sectionFive > p > button{
+.sectionFive > form > input::placeholder{
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+}
+.sectionFive > form > button{
     padding: 10px 30px;
 }
 footer{

@@ -5,6 +5,6 @@
             element.style.width = element.placeholder.length + 1 +'rem';
         })
 })();
-resize = (element) =>{
+const resize = (element) =>{
     element.style.width = element.value.length + 1 +'rem';
 }

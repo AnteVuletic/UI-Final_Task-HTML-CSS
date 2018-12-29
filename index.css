@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/Graphik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/Graphik-Semibold.ttf") format("truetype");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,p,label,span,input,button{
+    font-family: Graphik;
+}
+section{
+    margin-bottom: 100px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,186,186);
+}
+button{
+    border-style:none;
+    background-color: rgb(0,186,186);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232,248,248);
+}
+nav > a{
+    display: block;
+    margin-top: 15px;
+}
+nav > a > img{
+    mix-blend-mode: multiply;
+}
+nav > button{
+    padding: 30px 30px;
+}
+body > header{
+    padding-top: 100px;
+    background-color: rgb(232,248,248);
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionOne{
+    text-align: center;
+}
+.sectionOne > h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.sectionOne > .sectionOneFooter > span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.sectionOne > .sectionOneFooter > a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    background-color: rgb(232,248,248);
+}
+.sectionTwo{
+    display: flex;
+    justify-content: center;
+}
+.sectionThree{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:block;
+    text-align:center;
+    background-image: url("./assets/contacts.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+form > label{
+    font-size:30px;
+    font-weight: 400;
+}
+form > button{
+    padding: 10px 30px;
+}
+form > input{
+    border-width: 0px  0px 2px 0px;
+    border-style: solid;
+    border-color: rgb(0,186,186);
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+    background: inherit;
+}
+form > input::placeholder{
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+}
+form > p{
+    font-size: 15px;
+}
+.sectionFour{
+    display: flex;
+    justify-content: center;
+}
+.sectionFour > .textBlock{
+    text-align: end;
+}
+.sectionFive{
+    background-color: rgb(232,248,248);
+    text-align: center;
+    padding: 80px 0px;
+    margin-bottom: 0px;
+}
+.sectionFive > form{
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.sectionFive > form > input{
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: rgb(0,186,186);
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+    background: inherit;
+}
+.sectionFive > form > input::placeholder{
+    font-size: 30px;
+    color: rgb(0,186,186);
+    text-align: center;
+}
+.sectionFive > form > button{
+    padding: 10px 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 50px 0px;
+    margin: 0px;
+    border: 0px;
+}
